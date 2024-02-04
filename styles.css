@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+header {
+    background-image: url('images/main.jpg');  /* Replace 'your-background-image.jpg' with the actual path to your image */
+    background-size:cover ;  /* Ensures the background image covers the entire header */
+    background-position: center;  /* Center the background image */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+
+section {
+    margin: 0 ;
+}
+#about {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add a border-radius for rounded corners */
+}
+
+.about-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.about-text h2 {
+    color: #333;
+}
+
+.service {
+    text-align:center;
+    margin-bottom:30px;
+    display:flow-root;
+    transition: transform 0.5s ease-in-out;
+}
+
+.service img {
+    width: 100%; /* Take up the full viewport width */
+    height: auto;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Existing CSS code */
+
+section#contact {
+    text-align:left;
+}
+
+form {
+    max-width: 600px;
+    margin:0; /* Center the form horizontally */
+    display: grid;
+    grid-gap: 20px;
+}
+
+/* Existing CSS code */
+
+
+footer {
+    background-image: url('images/footer.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
